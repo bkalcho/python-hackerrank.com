@@ -1,5 +1,5 @@
 # Author: Bojan G. Kalicanin
-# Date: 11-Oct-2016
+# Date: 11-Nov-2016
 # Consider the following:
 # A string, s, of length n where s=c0c1...cn-1.
 # An integer, k, where k is a factor of n.
