@@ -4,9 +4,10 @@
 
 from collections import namedtuple
 
-n = int(input), Row = namedtuple('Row', input())
+n = int(input())
+Row = namedtuple('Row', input())
 a = 0
 for i in range(n):
-    c = Row(input().split())
-    a += int(c.MARKS)
-print(a)
+    c = Row(*input().split())
+    a += float(c.MARKS)
+print("{0:.2f}".format(a/n))
