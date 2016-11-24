@@ -14,5 +14,5 @@ l = list()
 for i in range(n):
     l.append(list(map(int, input().split())))
 k = int(input())
-for i in sorted(l, key=lambda i: i[k]):
+for i in sorted(l, key=lambda x: x[k]):
     print(*i)
