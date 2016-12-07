@@ -10,7 +10,7 @@ import re
 n = int(input())
 for i in range(n):
     s = input()
-    if re.match(r'^[456]\d{3}(?:-?\d{4}){3}$', s) and not re.search(r'(\d)\1{3}', re.sub('-', '', s)) and not re.search(r'[\s_]', s):
+    if re.match(r'^[456]\d{3}(-?\d{4}){3}$', s) and not re.search(r'(\d)\1{3}', re.sub('-', '', s)) and not re.search(r'[\s_]', s):
         print('Valid')
     else:
         print('Invalid')
